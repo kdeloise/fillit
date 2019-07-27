@@ -1,0 +1,58 @@
+int movesqr4x4(minsqr, tetr)
+{
+    if (//sign of has not been putted is true)
+            //init sqr and pos of sqr except A
+    while (//sqr exist)
+    {
+        if (//check first line for empty place)
+        {
+            //tetrimino has been puted
+            break ;
+        }
+        if (//tetr positions)
+        {
+            if (//tetrimino has been puted)
+                break ;
+        }
+        if (//tetrimino has not been puted)
+        {
+            //go to next sqr
+        }
+        else
+            //break ;
+    }
+    if (//no_place_toput_tetr) //all possible sqr and tetr positions has been searched for current tetr and there is no empty place put it.
+        return (0);
+    return (1);
+}
+
+void solution()
+{
+    //create minsqr
+    while (tetr)
+    {
+        if (movesqr4x4(minsqr, tetr)) //tetr has been putted
+            //go to next tetr
+        else
+        {
+            //go to previos tetr
+            clear(//previos tetr)
+        }
+    }
+    //show minsqr
+}
+
+//tetrimino has been puted {
+    //remember in which square
+    //remember in what position of the square
+}
+
+//tetrimino has hot been puted {
+    //remember this sign for tetrimino
+}
+
+//previos tetr {
+    //clear position that has been remembered
+}
+
+//check first line for empty place (at least one block of the tetr must be in this line)
