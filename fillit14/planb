@@ -1,0 +1,36 @@
+int     tetr_putted(minsqr, tetr)
+{
+    while (//sqr exist)
+    {
+
+    }
+}
+
+void    solution(tetr)
+{
+    //create minsqr
+    while (//tetr)
+    {
+        if (tetr_putted(minsqr, tetr))
+        {
+            (//tetr has been putted and position of square and in what position inside the square has been remembred);
+            tetr = tetr->next; //go to next tetr
+        }
+        else
+        {
+            printf("NO PLACE TO PUT CURRENT TETR")
+            tetr = tetr->prev;
+            //clear this tetr
+        }
+    }
+}
+
+//tetr - it must be two-linked list
+{
+    content[4][5];
+    min_pos[4][2];
+    last_pos[2]; //square where it has been putted
+    char name;
+    *next;
+    *prev;
+}
